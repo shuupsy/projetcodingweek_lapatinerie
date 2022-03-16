@@ -37,3 +37,15 @@ body {
 a:active{
     background-color: #F4D693;
 }
+
+.buttonup {
+    border-color: #6E467D;
+    position:fixed;
+    right: 3%;
+    bottom:5%;
+}
+
+.buttonup:hover{
+    background-color: #EA6FA4;
+}
+
