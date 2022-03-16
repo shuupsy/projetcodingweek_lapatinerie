@@ -1,0 +1,35 @@
+body {
+    background-color: #FEFAE1;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+}
+
+.formulaire{
+    margin-top: 10%;
+}
+
+#baby:hover{
+    background-color: black;
+}
+
+.dropdown .minidrop {
+    background-color: #FEFAE1;
+}
+
+
+#logo {
+    width: 24px;
+    height:24px;
+}
+
+.baby:hover {
+    color:orange !important;
+}
+
+.pseudo:focus{
+    background-color: #F4D693;
+}
+
+a:active{
+    background-color: #F4D693;
+}

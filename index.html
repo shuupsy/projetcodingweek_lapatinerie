@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/0f04e7ed22.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="public/images/favicon.ico">
+    <link rel="stylesheet" href="public/css/style.css">
+    <title>La Patinerie Bruxelles</title>
+</head>
+
+<body>
+    <header>
+        <div class="pb-0 mb-0">
+            <a class="navbar-brand" href="index.html" titre="La Patinerie ASBL">
+                <img class="img-fluid rounded mx-auto d-block" src="public/images/logo_m.png" alt="logo la patinerie">
+            </a>
+        </div>
+        <!--Début bar de navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light mb-5">
+            <div class="container-fluid nav justify-content-center menu">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active baby" aria-current="page" href="index.html">Accueil</a>
+                    </li>
+                    <!--Dropdown-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle baby" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            L'ASBL
+                        </a>
+                        <ul class="dropdown-menu minidrop" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item baby" href="public/pages/about.html">Qui sommes-nous ?</a></li>
+                            <li><a class="dropdown-item baby" href="public/pages/financement.html">Financement</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link baby" href="public/pages/faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link baby" href="public/pages/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--Début de section-->
+    <section>
+        <h1 class="mb-3 fst-italic text-success">Cours de groupe !</h1>
+        <div class="container mx-auto mb-3">
+            <div class="row d-flex justify-content-evenly">
+                <!--Card 1 CAROUSEL-->
+                <div class="col-3 card" style="width: 18rem;">
+                    <div id="carouselExampleControls" class="carousel slide card-img-top" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="public/images/news1a.png" class="d-block w-100" alt="cours date mars">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="public/images/news1b.png" class="d-block w-100" alt="cours date mars">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="public/images/news1c.png" class="d-block w-100" alt="cours date mars">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="public/images/news1d.png" class="d-block w-100" alt="cours date mars">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fa-regular fa-bookmark"></i> Date des cours en mars</h5>
+                        <p class="card-text">ATTENTION, sur incription ! Contactez nous
+                            <a href="public/pages/contact.html" class="text-decoration-none text-danger">ici.</a>
+                        </p>
+                    </div>
+                </div>
+                <!--Card 2-->
+                <div class="col-3 card" style="width: 18rem;">
+                    <img src="public/images/news2.png" class="card-img-top" alt="cours rollersquad 12fevrier">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fa-regular fa-bookmark"></i> Cours Débutant</h5>
+                        <p class="card-text">Ouvert à tous.tes sans inscription !</p>
+                    </div>
+                </div>
+                <!--Card 3-->
+                <div class="col-3 card" style="width: 18rem;">
+                    <img src="public/images/news3.png" class="card-img-top" alt="cours rollersquad 12fevrier">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fa-regular fa-bookmark"></i> Initiation au Skatepark</h5>
+                        <p class="card-text">Au BYRRRH and SKATE.<br>Rue de la petite ile 1A, Anderlecht</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--Evenements-->
+        <h1 class="mb-3 mt-4 fst-italic text-success">Derniers événements !</h1>
+        <div class="container mx-auto">
+            <div class="row d-flex justify-content-evenly">
+                <!--Card 1-->
+                <div class="col-3 card" style="width: 18rem;">
+                    <img src="public/images/even1.jpg" class="card-img-top" alt="seeu roller together">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fa-solid fa-warehouse"></i> SEE U #5 (04 mars)</h5>
+                        <p class="card-text">C'est le retour du Roller Together au See U ! <br>8 rue Fritz Toussaint,
+                            Ixelles</p>
+                    </div>
+                </div>
+                <!--Card 2-->
+                <div class="col-3 card" style="width: 18rem;">
+                    <img src="public/images/even2.png" class="card-img-top" alt="hallowheels">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fa-solid fa-ghost"></i> Hallowheels</h5>
+                        <p class="card-text">Vendredi 29 prochain nous organisons une soirée roller disco spéciale
+                            Halloween !</p>
+                    </div>
+                </div>
+                <!--Card 3-->
+                <div class="col-3 card" style="width: 18rem;">
+                    <img src="public/images/even3.png" class="card-img-top" alt="skatecare">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fa-solid fa-screwdriver-wrench"></i> Atelier Skatecare</h5>
+                        <p class="card-text">Au programme: apprend à connaître et entretenir tes patins!</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!--Footer-->
+    <footer class="pt-3 pb-2 mt-4 mx-auto border-top">
+        <div class="d-flex justify-content-center">
+            <p class="text-muted">
+                <a class="ms-3 text-muted" href="https://www.instagram.com/la_patinerie/" target="_blank">
+                    <img src="public/images/instagram.png" alt="logo instagram" id="logo"></a> La Patinerie 2022 -
+                Sylvaine Ruan.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
