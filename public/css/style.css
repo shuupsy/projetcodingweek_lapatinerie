@@ -30,6 +30,10 @@ body {
     background-color: #F4D693;
 }
 
+#sujetform {
+    width:100%;
+}
+
 a:active{
     background-color: #F4D693;
 }
